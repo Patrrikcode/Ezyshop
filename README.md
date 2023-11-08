@@ -1,6 +1,6 @@
 
 
-# Ezyshop v0.0.4
+# Ezyshop v0.0.5-alpha
 
 ![Ezy shop Logo](logo.png)
 
