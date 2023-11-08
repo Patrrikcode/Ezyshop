@@ -20,7 +20,7 @@ Pour commencer avec ce projet, suivez ces étapes :
 1. Clonez ce référentiel sur votre machine locale.
 
 ```bash
-git clone <URL-du-repository>
+git clone https://github.com/Patrrikcode/Ezyshop
 ```
 
 2. Ouvrez le fichier `index.html` dans votre navigateur web pour accéder à la page de connexion.
@@ -48,9 +48,3 @@ Ce projet est sous licence [MIT](LICENSE).
 
 Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter à l'adresse ezyshop18@gmail.com.
 
----
-
-Remarque : Remplacez `<URL-du-repository>` par l'URL réelle de votre référentiel GitHub, et `[votre-email@exemple.com]` par votre adresse e-mail de contact.
-
-N'hésitez pas à modifier et à étendre ce README pour fournir plus de détails sur votre projet et comment l'utiliser. Bonne chance avec votre référentiel GitHub !
-```
