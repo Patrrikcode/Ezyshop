@@ -1,82 +1,127 @@
-<!--Ezyshop v0.0.4-->
-
+<!--Ezyshop v0.0.5-alpha-->
+<address>ez-shop v0.0.5-alpha</address>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>
-    Ezy shop🛍
+    Connecter vous !
   </title>
   
+  
+
+<link rel="icon" href="favicon.ico">
 <style>
-h1 {
+body {
+  background-color:;
+  color:;
+  font-family: Arial, sans-sherif;
+}
+
+.connection {
   text-align: center;
 }
 
-body {
-  
-  
-}
-  
 .container {
   box-shadow: 0 0 10px rgba(0,0,0,1);
-  border-radius: 10px;
-}
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  height: 250px;
   
+}
+
+
 button {
-  border: none;
   color: #fff;
   background-color: cornflowerblue;
-  width: 150px;
+  border: none;
+  width: 200px;
   height: 50px;
 }
-  
-img {
-  border: none;
-  border-radius: 10px;
+
+a {
+  color: #007bff;
+  text-decoration: none;
 }
-</style>
+a:hover {
+  text-decorarion: underline;
+}
+
+
+.signin {
+  text-align: left;
+}
+
+
+footer {
+  text-decoration: underline;
+}
+  
+     .info-bar {
+      background-color: #f44336;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  
+  .new {
+    text-decoration:underline
+      }
+  
+    </style>
 
 
 </head>
 <body>
-  <marquee> le site est toujour en construction, les prochaines versions amenerons des ameliorations et modificafions sur l’aspect et le fonctionnement. Noter bien que ce n’est pas un vrai site de vente en ligne, il est utilisé comme sandbox pour du devWeb</marquee>
-
-  <h1>Bienvenue sur</h1>
+   <!-- Barre d'information en haut de la page -->
+  <div class="info-bar">
+    Le site est toujours en construction. Les prochaines versions apporteront des améliorations et modifications sur l'aspect et le fonctionnement. Notez bien que ce n'est pas un vrai site de vente en ligne. Il est utilisé comme bac à sable pour le développement web.
+  </div>
+  
+  <!--Logo-->
   <center><img src="logo.png" width="100px"></center>
   
-  
-  <form method="post" action="form.html">
-  
-  <div class="container">
-    <img src="shirt.png" alt="t-shirt" width="100px">
-    <h2>T-shirt</h2>
-    <p>T-shirt bleu</p>
-    <p>Prix: $1</p>
-    <button>Commander</button>
-  </div class="container">
-    <br><br><br>
-    
-    
+  <!--Formulaire de connexion-->
+  <form method="post" action="home_index.html">   
     <div class="container">
-      <img src="shoes.png" alt="chaussure" width="100px">
-      <h2>Chaussures</h2>
-      <p>Chaussure Nike de couleur rouge</p>
-      <p>Prix: $10.99</p>
-      <button>Commander</button>
-     </div class="container">
-    <br><br><br>
+    <div class="connection"> 
+      <i><h2>Connection</h2></i>
+    </div class="connection"> 
     
-    <div class="container">
-      <img src="product.png" alt="default_pic" width="100px">
-      <h2>Produit</h2>
-      <p>Produit par défaut</p>
-      <p>Prix: $1</p>
-      <button>Commander</button>
-    </div class="container">
+    
+    <!--Barre d’insertion du nom d’utilisateur-->
+  <label id="username">Nom d’utilisateur : </label>
+  <input type="name" autocomplete="on" placeholder="Patrick001" required>
+    <br><br>
+  
+    <!--Barre d’insertion du mot de passe-->
+  <label id="password">Mot de passe :</label>
+  <input type="password" autocomplete="off" placeholder="Motdepasse001@" required>
+    <br><br>
+  
+    
+    <!--Bouton de soumission-->
+  <button>Se connecter</button>
   </form>
-  <footer> &copy; 2023 Ezy shop Tout droits réservés </footer>
+    
+  
+  <!--Redirection vers la page d’inscription -->
+      <div class="signin">
+      <p><a href="signin_index.html">Je n’ai pas de compte</a></p>
+     </div class="signin">
+      </div class="container">
+        
+        
+        <!--Nouvautés de mises a jour-->
+        <div class="new">
+        <a href="new.html">Nouvauté</a>
+        </div>
+        
+        <!--Bas de page-->
+        <br><br><br><br><br>
+        <footer> &copy;2023 Ezy shop Tout droits réservés</footer>
+        
   
 </body>
-
-  </html>
+</html>
