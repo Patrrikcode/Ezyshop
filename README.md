@@ -1,4 +1,4 @@
-```markdown
+
 # Site EzyShop
 
 Il s'agit du code source du site web EzyShop, une application web simple permettant la connexion des utilisateurs et l'accès à l'environnement de développement.
@@ -19,9 +19,8 @@ Pour commencer avec ce projet, suivez ces étapes :
 
 1. Clonez ce référentiel sur votre machine locale.
 
-```bash
+
 git clone https://github.com/Patrrikcode/Ezyshop
-```
 
 2. Ouvrez le fichier `index.html` dans votre navigateur web pour accéder à la page de connexion.
 
