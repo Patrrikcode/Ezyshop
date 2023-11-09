@@ -1,7 +1,4 @@
-Voici la traduction en français du contenu pour un fichier "LICENSE.txt" basé sur le code HTML que vous avez fourni :
-
-```
-Licence Ezyshop v0.0.5-alpha
+Licence Ezyshop v0.0.6-alpha
 
 Ce site web et son code associé (Ezyshop v0.0.5-alpha) sont fournis selon les termes et conditions suivants :
 
@@ -24,6 +21,3 @@ Pour toute question ou demande d'autorisation, veuillez contacter le propriétai
 
 Remarque : Il s'agit d'une licence d'exemple et elle peut nécessiter une révision juridique et une personnalisation pour correspondre à vos besoins spécifiques et respecter les lois locales et les politiques de votre site web.
 
-```
-
-Assurez-vous de personnaliser cette licence en fonction de vos besoins, de consulter un professionnel du droit si nécessaire et de vous assurer qu'elle est conforme aux lois locales et aux politiques de votre site web.
